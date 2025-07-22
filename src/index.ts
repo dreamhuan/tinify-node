@@ -1,5 +1,5 @@
 import { processing, toWebp, minify } from "./main";
 
-processing("webp");
+// processing("webp");
 
-// toWebp('tanner-crockett-gkKPclUyTGg-unsplash.jpg')
+toWebp('home-card-1.jpg')

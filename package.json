@@ -4,8 +4,10 @@
   "main": "index.js",
   "scripts": {
     "start": "npx ts-node src/index.ts",
-    "copy": "npx ts-node src/copy.ts",
     "webp": "npx ts-node src/webp.ts",
+    "copy": "npx ts-node src/copy-webp-image.ts",
+    "delete": "npx ts-node src/delete-duplicate-images.ts",
+    "analyze": "npx ts-node src/analyze-image-sizes.ts",
     "dev": "nodemon src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
